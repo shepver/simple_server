@@ -12,7 +12,7 @@
 %% API
 -export([start/0]).
 
--define(PORT, 8080).
+-define(PORT, 48260).
 
 start() ->
   application:start(ranch),
